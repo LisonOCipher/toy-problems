@@ -1,5 +1,6 @@
+// defining module
 const gradesModule = (function () {
-    
+    // functions to determin grade
     function calculateGrade(studentMarks) {
         if (studentMarks > 79) {
             return "A";
